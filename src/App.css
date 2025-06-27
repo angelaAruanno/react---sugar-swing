@@ -57,14 +57,39 @@ input[type="checkbox"] {
   border-radius: 2px;
 }
 
-.touch-pan-x {
-  touch-action: pan-x;
-}
-
-.-webkit-overflow-scrolling-touch {
+.mobile-scroll {
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
+  padding: 1rem;
+  scrollbar-width: none; /* Firefox */
 }
 
+.mobile-scroll::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+
+.bg-taste-chocolate{
+  background-image: url(../public/img/CIOCCOLATO.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-taste-white-chocolate{
+  background-image: url(../public/img/CIOCCOLATO\ BIANCO.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-taste-strawberry{
+  background-image: url(../public/img/FRAGOLA.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
 
 @keyframes scroll-right {
   from {

@@ -4,6 +4,9 @@ import App from '../pages/App';
 import Donuts from '../pages/Donuts';
 import Locations from '../pages/Locations';
 import Layout from "../layouts/Layout";
+import TasteChocolate from '../pages/TasteChocolate';
+import TasteWhiteChocolate from '../pages/TasteWhiteChocolate';
+import TasteStrawberry from '../pages/TasteStrawberry';
 
 const router = createBrowserRouter([
 
@@ -27,6 +30,21 @@ const router = createBrowserRouter([
             {
                 path: '/donuts/:id',
                 element: <DonutDetail />
+            },
+
+            {
+                path: '/taste-chocolate',
+                element: <TasteChocolate />
+            },
+
+            {
+                path: '/taste-white-chocolate',
+                element: <TasteWhiteChocolate />
+            },
+
+             {
+                path: '/taste-strawberry',
+                element: <TasteStrawberry />
             }
 
         ]

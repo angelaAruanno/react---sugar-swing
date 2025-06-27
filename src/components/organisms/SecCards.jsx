@@ -11,7 +11,8 @@ export default function SecCards() {
 
     return (
         <>
-            <div className="flex justify-center max-lg:hidden">
+        {/* desktop */}
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center"  className="flex justify-center max-lg:hidden">
                 {selectedCards.map(({ name, category, description, img }) => (
                     <Card
                         key={name}
@@ -24,19 +25,21 @@ export default function SecCards() {
 
                 ))}
             </div>
-                {/* mobile */}
-            <div className="flex justify-center min-lg:hidden overflow-x-auto -webkit-overflow-scrolling-touch touch-pan-x">
-                {selectedCards.map(({ name, category, description, img }) => (
-                    <Card
-                        key={name}
-                        name={name}
-                        category={category}
-                        description={description}
-                        img={img}
-                        className="hidden"
-                    />
+            {/* mobile */}
+            <div className='min-lg:hidden mobile-scroll'>
+                <div className="flex scroll-inner">
+                    {selectedCards.map(({ name, category, description, img }) => (
+                        <Card
+                            key={name}
+                            name={name}
+                            category={category}
+                            description={description}
+                            img={img}
+                            className="hidden"
+                        />
 
-                ))}
+                    ))}
+                </div>
             </div>
             <div className='flex justify-center my-7'>
                 <Button href="/donuts">Scopri tutti i nostri donuts</Button>

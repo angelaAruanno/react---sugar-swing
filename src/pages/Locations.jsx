@@ -27,7 +27,7 @@ export default function Locations() {
     <>
       <Header className="hidden">Locations</Header>
 
-      <div className="flex justify-around items-center flex-wrap gap-6">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-center" className="flex justify-around items-center flex-wrap gap-6">
         {LOCATIONS.map(({ name, description, img }) => (
           <CardLocations
             key={name}
@@ -39,7 +39,7 @@ export default function Locations() {
       </div>
 
       <div className="flex justify-center mt-8">
-        <Form className="border-4 border-red-300 rounded-2xl p-6 w-full mb-3" />
+        <Form className="border-4 border-red-300 rounded-2xl p-6 w-full mb-11" />
       </div>
     </>
   );

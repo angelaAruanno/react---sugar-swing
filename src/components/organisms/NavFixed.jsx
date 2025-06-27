@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import LinksNav from "../molecules/LinksNav";
-import ButtonNavMobile from "../atoms/ButtonNavMobile";
+import ButtonNavFixedHome from "../atoms/ButtonNavFixedHome";
 import NewTastesFixed from "../atoms/NewTastesFixed";
 
-export default function NavMobile() {
+export default function NavFixed() {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
@@ -23,7 +23,7 @@ export default function NavMobile() {
             {isVisible ? (
                 <div className="flex justify-center">
                     <div className="bg-white flex items-center p-2 fixed bottom-2 rounded-2xl border-4 border-red-300 transition-normal">
-                        <ButtonNavMobile />
+                        <ButtonNavFixedHome />
                         <LinksNav />
                         <NewTastesFixed />
                     </div>
