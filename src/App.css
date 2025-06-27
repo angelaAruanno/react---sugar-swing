@@ -1,0 +1,90 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-soft-white-300);
+  animation: opacity 3s linear 1;
+}
+
+.scroll-container {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scroll-text {
+  transform: translateX(-100%);
+  animation: scroll-right 10s linear infinite;
+}
+
+.scroll-container:hover .scroll-text {
+  animation-play-state: paused;
+}
+
+.location {
+  background-image: radial-gradient(#d9af6c50, #76441acb), url(../public/img/traditonal-shop.webp);
+  background-size: cover;
+  height: 70vh;
+}
+
+.card-locations, .sec-form {
+  background-color: #f6f2ec9f;
+  backdrop-filter: blur(7px);
+}
+
+.booking, .form-locations {
+  background-image: url(../public/img/booking-pattern.webp);
+  background-size: cover;
+  min-height: 70vh;
+}
+
+input {
+  border: 1px solid #ccc;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input:focus,
+input:active {
+  outline: none;
+  border-color: var(--color-soft-white-400);
+  box-shadow: 0 0 0 2px var(--color-soft-white-400);
+}
+
+input[type="checkbox"] {
+  accent-color: var(--color-brown-300);
+  margin-right: 3px;
+  border-radius: 2px;
+}
+
+.touch-pan-x {
+  touch-action: pan-x;
+}
+
+.-webkit-overflow-scrolling-touch {
+  -webkit-overflow-scrolling: touch;
+}
+
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
