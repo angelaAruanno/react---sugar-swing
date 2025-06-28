@@ -5,7 +5,7 @@ export default function LinksFooter(){
     return(
         <>
              {[...Array(count)].map(() => (
-                <LinkFooter href="https://www.figma.com/design/JlgoRyqrKBdvBEzKM4jgQs/Sugar---Swing?node-id=71-126&t=v4BCPV7epAFKZvmW-1">Prototype Figma</LinkFooter>
+                <LinkFooter href="https://www.figma.com/design/wzXFUxlNUTQDNSkZBInU6V/Sugar---Swing---Prototype?node-id=1-481&p=f&t=Sb8DlD5OkpPnTcKK-0">Prototype Figma</LinkFooter>
             ))}
         </>
     )
