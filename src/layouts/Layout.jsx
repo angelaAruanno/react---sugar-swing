@@ -1,9 +1,9 @@
 import Navbar from "../components/organisms/Navbar";
 import Footer from "../components/organisms/Footer";
 import NavFixed from "../components/organisms/NavFixed";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 import { Outlet } from "react-router-dom";
 
