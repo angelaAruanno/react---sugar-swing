@@ -14,7 +14,7 @@ Il progetto si basa su un sistema di design modulare sviluppato in **Figma**, ch
 
 🔗 **Il prototipo completo è disponibile nel footer del sito**, oppure direttamente al link seguente:
 
-👉 [Visualizza il Prototipo su Figma →]([https://link-al-prototipo.com](https://www.figma.com/design/wzXFUxlNUTQDNSkZBInU6V/Sugar---Swing---Prototype?node-id=1-481&t=lEL3hDZJPZde8zKo-1))
+👉 [Visualizza il Prototipo su Figma → ([https://spline.design/](https://www.figma.com/design/wzXFUxlNUTQDNSkZBInU6V/Sugar---Swing---Prototype?node-id=1-481&t=lEL3hDZJPZde8zKo-1))
 
 ## 🧪 Tecnologie Utilizzate
 
