@@ -8,7 +8,7 @@ Il frontend è stato realizzato seguendo fedelmente il **design system creato in
 Il progetto si basa su un sistema di design modulare sviluppato in **Figma**, che include:
 
 - Design System completo (Atomic Design)
-- 🗺Wireframe e sketch
+- Wireframe e sketch
 - Componenti riutilizzabili
 - Guida visiva coerente
 
