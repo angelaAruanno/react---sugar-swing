@@ -7,10 +7,10 @@ Il frontend è stato realizzato seguendo fedelmente il **design system creato in
 
 Il progetto si basa su un sistema di design modulare sviluppato in **Figma**, che include:
 
-- ✅ Design System completo (Atomic Design)
-- 🗺️ Wireframe e sketch
-- 🧩 Componenti riutilizzabili
-- 🎯 Guida visiva coerente
+- Design System completo (Atomic Design)
+- 🗺Wireframe e sketch
+- Componenti riutilizzabili
+- Guida visiva coerente
 
 🔗 **Il prototipo completo è disponibile nel footer del sito**, oppure direttamente al link seguente:
 
@@ -18,12 +18,12 @@ Il progetto si basa su un sistema di design modulare sviluppato in **Figma**, ch
 
 ## 🧪 Tecnologie Utilizzate
 
-- ⚛️ React
-- 🧬 Atomic Design (in Figma e React)
-- 💅 CSS Modules / TailwindCSS 
-- 🌌 Elementi 3D creati in [Spline](https://spline.design/) ed esportati
-- 🧠 Immagini generate con AI (freepik AI)
-- 🖼️ Negative Space come principio guida del layout
+- React
+- Atomic Design (in Figma e React)
+- CSS Modules / TailwindCSS 
+- Elementi 3D creati in [Spline](https://spline.design/) ed esportati
+- Immagini generate con AI (freepik AI)
+- Negative Space come principio guida del layout
 
 ## 🧱 Architettura del Progetto (Atomic Design)
 
